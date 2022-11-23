@@ -24,7 +24,6 @@ function Homepage() {
           <h1>{session.user.name}</h1>
           <p>{session.user.email}</p>
           <img src={session.user.image} alt=''/>
-          <p>Labra Galindo Francisco</p>
           </div>
         ) : (
           <p>Labra Galindo Francisco</p>
