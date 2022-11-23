@@ -27,7 +27,7 @@ function Homepage() {
           <p>Labra Galindo Francisco</p>
           </div>
         ) : (
-          <p>Skeleton</p>
+          <p>Labra Galindo Francisco</p>
         )
       }
       <button onClick={()=> signOut()}>       
