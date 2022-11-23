@@ -24,9 +24,10 @@ function Homepage() {
           <h1>{session.user.name}</h1>
           <p>{session.user.email}</p>
           <img src={session.user.image} alt=''/>
+          <p></p>
           </div>
         ) : (
-          <p>Labra Galindo Francisco</p>
+          <p></p>
         )
       }
       <button onClick={()=> signOut()}>       
